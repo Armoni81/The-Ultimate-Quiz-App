@@ -1,0 +1,157 @@
+
+:root{
+    --hue-neutral:960;
+    --hue-wrong:0;
+    --hue-correct:145;  
+
+}
+#playnow{
+    color: rgb(104, 104, 187);
+    text-align: center;
+    font-size: 26pt;
+    background-color: rgb(132, 223, 214);
+    padding: 0;
+    margin: 0;
+    font-family:"DotGothic16" ;
+    height: 50px;
+}
+
+
+.home-cont{
+    background-color: hsl(var(--hue-neutral),100%,20%);
+    height:100vh;
+    width: 100vw;
+
+}
+
+.quiz-home-half{
+    height: 150px;
+   
+    background-image: url("../images/Screen Shot 2021-12-02 at 11.11.30 PM.jpg");
+    background-position: center;
+    background-position-x: 120px;
+    background-size: 425px;
+    background-repeat: repeat-x;
+    opacity: 100%;
+    padding: 0;
+    margin: 0;
+   
+}
+
+#quizword-home{
+    font-family: "DotGothic16";
+    font-size: 35pt;
+    text-align: center;
+    font-weight: 900;
+    color:whitesmoke;
+    -webkit-text-stroke:0.07vw rgb(157, 167, 20);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 270px;
+    position: relative;
+    top:40px
+   
+    
+   
+
+}
+
+.seperate-quizzes{
+    background-color: rgb(1, 1, 12);
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 40px;
+    align-items: center;
+    
+   
+
+}
+#quizbox1,#quizbox2,#quizbox3,#quizbox4,#quizbox5,#quizbox6{
+    border-radius: 200px;
+    height: 160px;
+    padding: 0;
+    margin-top: 10px;
+    font-family: 'Train On';
+    list-style: none;
+    color: aqua;
+    
+    
+    
+
+   
+}
+#quizbox1{
+background-image: url("../images/code-quizapp.jpeg");
+background-repeat: repeat;
+background-size: 400px;
+opacity: 30;
+
+}
+#quizbox2{
+background-image: url("../images/kobeb.jpeg");
+background-size: 500px;
+background-position-x: 20px;
+
+
+}
+#quizbox3{
+    background-image: url("../images/tv-g5401e0024_640.jpg");
+    background-size:500px;
+    background-repeat: no-repeat;
+}
+#quizbox4{
+    background-image: url("../images/images.png");
+    background-repeat: no-repeat;
+    background-size: 630px;
+}
+#quizbox5{
+    background-image: url("../images/food-quizapp.jpeg");
+    background-position-y:280px;
+    background-position-x:;
+    background-size: 650px;
+}
+#quizbox6{
+    background-image: url("../images/owl-g0ac25efce_640.jpg");
+    background-size: 480px;
+    background-position-y: -45px;
+    background-position-x: 0px;
+}
+
+
+#quizbox1:hover,#quizbox2:hover,#quizbox3:hover,#quizbox4:hover,#quizbox5:hover,#quizbox6:hover{
+    opacity: 70%;
+    border: 3px whitesmoke solid;
+
+}
+
+#brainimg{
+    border-radius: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid green
+}
+#href1{
+    
+    border-radius: 49px;
+    height: 219px;
+    font-size: 20pt;
+    
+    color: aquamarine;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 800;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#href1:hover{
+    font-size: 30pt;
+    font-weight: 900;
+}
