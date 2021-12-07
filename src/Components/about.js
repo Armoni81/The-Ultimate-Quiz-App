@@ -10,7 +10,7 @@ export default function About(){
                 <img src = {itsME} id = "armoni"></img>
                 <p id = "aboutme">Creator: Armoni Tigner</p>
                 <p id = "aboutme">Built with React JSX CSS JavaScript </p>
-                <p id = "aboutme">The Ultimate Quiz App was initially built to study basic software development topics, but later turned into hosting catergories such as sports, movies, food. I did'nt want to limit myself. Please enjoy this app as it was build 100% from scratch. Please leave any reviews or messages in my contact form below.</p>
+                <p id = "aboutme">The Ultimate Quiz App was initially built to study basic software development topics, but later turned into hosting a plethora of catergories such as sports, movies, food and history. I did'nt want to limit myself. Please enjoy this app as it was built 100% from scratch. Please leave any reviews or messages in my contact form below.</p>
             </div>
             <div>
                 <p id = "contact">Contact Me</p>

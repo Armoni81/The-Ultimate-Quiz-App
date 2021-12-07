@@ -48,8 +48,8 @@
   
   .sign-in-cont{
     border:1px black solid;
-    width:600px;
-    height:300px;
+    width:800px;
+    height:500px;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -57,13 +57,21 @@
     border-radius: 12%;
     background-color: rgb(104, 104, 187);
   }
+  @media (prefers-reduced-motion: no-preference) {
+    .sign-in-cont {
+      animation: App-logo-spin  1s linear;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+  }
+  
   
   #appName{
     position: relative;
     bottom:20px;
   }
   #builtby{
-    color: blueviolet;
+    color: rgb(208, 226, 43);
     display: flex;
     position: relative;
     top:100px
@@ -86,23 +94,20 @@
   width: 195px;
   height:50px ;
   border-radius: 10px;
+  
 }
 
 #box22{
   width: 20px;
   height: 20px;
-  background-color: ;
   position: relative;
   animation-name: example;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;  
   border-radius: 100px;
+  border:1px green solid;
+  position: relative;
+  left:200px;
 }
 
-@keyframes example {
-  0%   {background-color:rgb(247, 235, 235); left:350px; bottom:0px; right:500px; top:0px}
-  50%  {background-color:rgb(250, 250, 255); left:405px; bottom:0px;right:0px; top:0px}
-  75%  {background-color:rgb(234, 241, 234); left:10px; bottom:0px;right:1000px; top:0px}
-  100% {background-color:rgb(243, 234, 234); left:10px; bottom:0px;right:0px; top:0px}
-}

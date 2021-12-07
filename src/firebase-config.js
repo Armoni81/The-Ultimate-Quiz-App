@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app"
 import { getAuth } from "firebase/auth";
+
 const firebaseConfig = {
 apiKey: "AIzaSyCxd1Iq49P7QCc_5rXCN3Y-RFC5qLug3oY",
   authDomain: "auth--quizapp.firebaseapp.com",

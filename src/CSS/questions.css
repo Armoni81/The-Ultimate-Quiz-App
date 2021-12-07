@@ -16,7 +16,33 @@
     }
   }
   
+  #quizdisplay{
+    background-color: black;
+    padding: 0;
+    margin:0;
+    color:aquamarine;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top-color:black;
+    border-left-color:aquamarine;
+    border-right-color:aquamarine;
+    border-bottom-color: aquamarine;
+    text-align: center;
+    font-family:"DotGothic16" ;
+    font-size: 25pt;
+    
   
+  }
+  #quizdisplay2{
+    background-color: black;
+    padding: 0;
+    margin:0;
+    color:aquamarine;
+    
+    text-align: center;
+    font-family:"DotGothic16" ;
+    font-size: 25pt;
+  }
   
   
   @keyframes App-logo-spin {
@@ -66,6 +92,16 @@
     gap:10px;
     margin:20px 0;
     font-family: "TrainOne";
+    
+}
+.btn-grid2{
+  display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap:10px;
+    margin:20px 0;
+    font-family: "TrainOne";
+    font-size: 25pt;
+
 }
 .btn{
     --hue: var(--hue-neutral);
@@ -76,6 +112,7 @@
     outline: none;
     border: black 1px solid;
     font-family: 'Train One';
+    color: turquoise;
 }
 
 .btn:hover{
@@ -127,6 +164,7 @@ font-size: 40pt;
 }
 #question{
     font-family: 'Train One', cursive;
+    
 }
 
 #RESET{
@@ -142,6 +180,7 @@ font-size: 40pt;
     position: relative;
     left:780px;
     bottom:50px;
+    cursor:zoom-in;
     
 }
 #bigger2{
@@ -153,6 +192,7 @@ font-size: 40pt;
     position: relative;
     left:950px;
     bottom:160px;
+    cursor: zoom-out;
 }
 #bigger:hover,#bigger2:hover{
     opacity: 85%;
@@ -258,11 +298,15 @@ font-size: 40pt;
 
   #scoreboard{
       background-color: rgb(104, 104, 187);
+      box-shadow:0 0 10px 1px rgb(120, 108, 226);
+      border-radius: 4px;
       width: 20px;
       font-size: larger
   }
   #scoreboard-1{
     width: 70px;
+    border-radius: 12px;
+    box-shadow:0 0 10px 10px rgb(120, 108, 226);
     background-color: rgb(104, 104, 187);
 
   }

@@ -9,7 +9,7 @@ import brain from "../images/brains-home-page.png"
 export default function Questions (){
         const questions1 = [
             {
-                questionsText: "Choose the correct HTML element for the largest heading:?",
+                questionsText: "Choose the correct HTML element for the largest heading?",
                 anwserOptions:[
                     {anwserText: "<h1>", isCorrect:true},
                     {anwserText: "<h6>", isCorrect:false},
@@ -66,8 +66,8 @@ export default function Questions (){
             {
                 questionsText: "Inside which HTML element do we put the JavaScript?",
                 anwserOptions:[
-                    {anwserText: "<script>", isCorrect:false},
-                    {anwserText: "<js>", isCorrect:true},
+                    {anwserText: "<script>", isCorrect:true},
+                    {anwserText: "<js>", isCorrect:false},
                     {anwserText: "<body>", isCorrect:false},
                     {anwserText: "<javascript> ", isCorrect:false},
                 ],
@@ -122,7 +122,7 @@ export default function Questions (){
                 anwserOptions:[
                     {anwserText: "/* this is a comment */  ", isCorrect:true},
                     {anwserText: "' this is a comment ", isCorrect:false},
-                    {anwserText: "", isCorrect:false},
+                    {anwserText: "/ this is a comment /", isCorrect:false},
                     {anwserText: "// this is a comment ", isCorrect:false},
                 ],
             },
@@ -133,6 +133,7 @@ export default function Questions (){
     const [isShowing, setIsShowing] = useState(true)
     const nextQuestion = currentQuestion + 1;   
     const percentage = Math.floor(score/questions1.length *100)
+    
 
 
 	const handleAnswerButtonClick = (isCorrect) => {
@@ -158,6 +159,7 @@ export default function Questions (){
     }  
 return(
     <body>
+        <p id = "quizdisplay">Ultimate Coder Quiz</p>
         {showScore ? (
 				<div className = "quiz-cont">
                     <div id = "container-quest">
@@ -174,11 +176,11 @@ return(
 					
 				</div>
 			) : (
-
         <div className = "quiz-cont" >
             <div id =  {isShowing ?"container-quest": "hide" }>
+                
                 <div id = "question">{questions1[currentQuestion].questionsText}</div>
-                <div id = "anwser-buttons" className= "btn-grid"> 
+                <div  className= {isShowing? "btn-grid": "btn-grid2"}> 
                     {questions1[currentQuestion].anwserOptions.map((anwserOptions) =>(
                     <button  onClick = {()=>handleAnswerButtonClick(anwserOptions.isCorrect)}className= "btn">{anwserOptions.anwserText}</button>
                 ))}
@@ -199,8 +201,7 @@ return(
             </div> 
         </div>
             )}
-    </body>
-    
+    </body> 
 )
 
 }

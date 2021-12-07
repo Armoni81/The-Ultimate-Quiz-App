@@ -105,30 +105,30 @@ export default function SportQuestions (){
                 ],
             },
             {
-                questionsText: "What is the correct HTML for referring to an external style sheet?",
+                questionsText: "What pitcher holds the record for most complete games in an MLB career?",
                 anwserOptions:[
-                    {anwserText: "<stylesheet>styles.css</stylesheet>", isCorrect:false},
-                    {anwserText: "<link rel = \"stylesheet \" type = \"text/css\" ref= \"styles.css\">", isCorrect:false},
-                    {anwserText: "<link rel = \"stylesheet \" type = \"text/css\" href= \"styles.css\">", isCorrect:true},
-                    {anwserText: "None of the above 😈", isCorrect:false},
+                    {anwserText: "Marion Rivera", isCorrect:false},
+                    {anwserText: "Don Sutton", isCorrect:false},
+                    {anwserText: "Cy Young", isCorrect:true},
+                    {anwserText: "Roy Halladay", isCorrect:false},
                 ],
             },
             {
-                questionsText: "What is the correct CSS Syntax?",
+                questionsText: "Who is the most decorated Olympian of all time??",
                 anwserOptions:[
-                    {anwserText: "{body:color=black;}", isCorrect:false},
-                    {anwserText: "body:color=black; ", isCorrect:false},
-                    {anwserText: "body {color: black;}  ", isCorrect:true},
-                    {anwserText: "{body;color:black;} ", isCorrect:false},
+                    {anwserText: "Paavo Numi", isCorrect:false},
+                    {anwserText: "Carl Lewis ", isCorrect:false},
+                    {anwserText: "Michale Phelps ", isCorrect:true},
+                    {anwserText: "Usain Bolt", isCorrect:false},
                 ],
             },
             {
-                questionsText: "How do you insert a comment in a CSS file?",
+                questionsText: "What college football position receives the Jim Thorpe Award?",
                 anwserOptions:[
-                    {anwserText: "/* this is a comment */  ", isCorrect:true},
-                    {anwserText: "' this is a comment ", isCorrect:false},
-                    {anwserText: "", isCorrect:false},
-                    {anwserText: "// this is a comment ", isCorrect:false},
+                    {anwserText: "Cornerback ", isCorrect:true},
+                    {anwserText: "Tight End", isCorrect:false},
+                    {anwserText: "Linebacker", isCorrect:false},
+                    {anwserText: "Quaterback ", isCorrect:false},
                 ],
             },
             
@@ -164,6 +164,7 @@ export default function SportQuestions (){
         }  
     return(
         <body>
+            <p id = "quizdisplay">Ultimate Sports Quiz</p>
             {showScore ? (
                     <div className = "quiz-cont">
                         <div id = "container-quest">
