@@ -25,15 +25,15 @@ export default function App() {
   return (
     <Router>
       <nav>
-        <div className="navbar">
-          <p id="quiz-name">Ultimate-Quiz</p>
-          <ul className="navbar-list">
-            <li><Link to="/" id="navhover">Home</Link></li>
-            <li><Link to="/signin" id="navhover">Sign-In</Link></li>
-            <li><Link to="/about" id="navhover">About</Link></li>
-          </ul>
-        </div>
-      </nav>
+  <div className="navbar">
+    <p id="quiz-name">Ultimate-Quiz</p>
+    <ul className="navbar-list">
+      <li><Link to="/" id="navhover">Home</Link></li>
+      <li><Link to="/signin" id="navhover">Sign-In</Link></li>
+      <li><Link to="/about" id="navhover">About</Link></li>
+    </ul>
+  </div>
+</nav>
       <Routes>
         <Route path="/signin" element={<SignIn />} />
         <Route path="/questions" element={<Questions />} />
