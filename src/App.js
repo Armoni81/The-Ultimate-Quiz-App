@@ -29,10 +29,10 @@ export default function App() {
         <div className="navbar">
           <p id="quiz-name">Ultimate-Quiz</p>
           <ul className="navbar-list">
-            <li><Link to="#/">Home</Link></li>
-            <li><Link to="#/signin">Sign-In</Link></li>
-            <li><Link to="#/about">About</Link></li>
-            <li><Link to="#/sportquestions">Sport Questions</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/signin">Sign-In</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/sportquestions">Sport Questions</Link></li>
             {/* Add more links as needed */}
           </ul>
         </div>
