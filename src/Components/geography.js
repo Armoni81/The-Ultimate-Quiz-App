@@ -1,12 +1,11 @@
 import React from "react"
-import logo from "../images/925808_wifi_icon.png"
 import "../CSS/questions.css"
-import { Button } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.css"
 import {useState} from "react"
 import brain from "../images/brains-home-page.png"
 
 export default function Geography (){
+    
         const questions1 = [
             {
                 questionsText: " Which of these U.S. states does NOT border Canada?",

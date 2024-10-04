@@ -1,12 +1,11 @@
 import React from "react"
-import logo from "../images/925808_wifi_icon.png"
 import "../CSS/questions.css"
-import { Button } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.css"
 import {useState} from "react"
 import brain from "../images/brains-home-page.png"
 
 export default function Whosaidthat (){
+
         const questions1 = [
             {
                 questionsText: " Who said, \"100% of the shots you don't take don't go in\"?",
@@ -134,8 +133,6 @@ export default function Whosaidthat (){
     const nextQuestion = currentQuestion + 1;   
     const percentage = Math.floor(score/questions1.length *100)
     
-
-
 	const handleAnswerButtonClick = (isCorrect) => {
 		if (isCorrect) {
 			setScore(score + 1);
@@ -144,7 +141,6 @@ export default function Whosaidthat (){
             alert("This is incorrect 😕")
         }
 
-		
 		if (nextQuestion < questions1.length) {
 			setCurrentQuestion(nextQuestion);
 		} else {

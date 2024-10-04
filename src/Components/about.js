@@ -1,8 +1,8 @@
 import React from "react"
 import itsME from "../images/IMG_8820.jpg"
 import "../CSS/about.css"
-import smiley from "../images/smiley-ge91982d24_640.png"
 export default function About(){
+    
     return(
         <div className = "background">
             <p>About</p>

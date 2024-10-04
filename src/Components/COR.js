@@ -1,13 +1,11 @@
 import React from "react"
 import "../CSS/questions.css"
-import { Button } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.css"
 import {useState} from "react"
 import brain from "../images/brains-home-page.png"
 
 
 export default function COR(){
-
 
     const questions1 = [
         {

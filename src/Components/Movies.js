@@ -1,13 +1,11 @@
 import React from "react"
 import "../CSS/questions.css"
-import { Button } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.css"
 import {useState} from "react"
 import brain from "../images/brains-home-page.png"
 
 
 export default function Movies(){
-
 
     const questions1 = [
         {
@@ -57,7 +55,7 @@ export default function Movies(){
             ],
         },
         {
-            questionsText: " What is the highest-grossing film of all time?",
+            questionsText: "What is the highest-grossing film of all time?",
             anwserOptions:[
                 {anwserText: "Titanic", isCorrect:false},
                 {anwserText: "The Lion King", isCorrect:false},

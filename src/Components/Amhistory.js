@@ -1,12 +1,11 @@
 import React from "react"
-import logo from "../images/925808_wifi_icon.png"
 import "../CSS/questions.css"
-import { Button } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.css"
 import {useState} from "react"
 import brain from "../images/brains-home-page.png"
 
 export default function History (){
+    
         const questions1 = [
             {
                 questionsText: "Juneteenth, which became an official federal holiday in 2021, commemorates...",
@@ -134,8 +133,6 @@ export default function History (){
     const nextQuestion = currentQuestion + 1;   
     const percentage = Math.floor(score/questions1.length *100)
     
-
-
 	const handleAnswerButtonClick = (isCorrect) => {
 		if (isCorrect) {
 			setScore(score + 1);

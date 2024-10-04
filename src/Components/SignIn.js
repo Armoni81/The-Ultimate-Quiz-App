@@ -1,15 +1,12 @@
 import React from "react"
 import {authentication} from "../firebase-config"
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import logo from "../images/quiz.png"
 import "../CSS/signin.css"
-import { getAuth, signOut } from "firebase/auth"; 
+
 
 export default function SignIn (){
-   
-   
 
-        const signInWithGoogle =  ()=>{
+        const signInWithGoogle = () => {
           if(authentication === true){
             alert("You have signed in")
           }
