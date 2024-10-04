@@ -5,6 +5,22 @@ import {
   Link,
 } from "react-router-dom";
 // Your imports...
+import SignIn from './Components/SignIn';
+import Questions from "./Components/Questions";
+import Home from "./Components/Home";
+import Movies from "./Components/Movies";
+import SportQuestions from "./Components/SportQuestions";
+import About from "./Components/about";
+import COR from "./Components/COR";
+import Food from "./Components/food";
+import Animals from "./Components/animals";
+import History from "./Components/Amhistory";
+import Geography from "./Components/geography";
+import "./App.css";
+import Whosaidthat from "./Components/whosaidthat";
+import Music from "./Components/music";
+import Spongebob from "./Components/spongebob";
+import General from "./Components/general";
 
 export default function App() {
   return (
