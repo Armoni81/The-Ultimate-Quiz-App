@@ -1,10 +1,9 @@
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   Link,
 } from "react-router-dom";
-// Your imports...
 import SignIn from './Components/SignIn';
 import Questions from "./Components/Questions";
 import Home from "./Components/Home";
@@ -29,30 +28,28 @@ export default function App() {
         <div className="navbar">
           <p id="quiz-name">Ultimate-Quiz</p>
           <ul className="navbar-list">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/signin">Sign-In</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/sportquestions">Sport Questions</Link></li>
-            {/* Add more links as needed */}
+            <li><Link to="/" id="navhover">Home</Link></li>
+            <li><Link to="/signin" id="navhover">Sign-In</Link></li>
+            <li><Link to="/about" id="navhover">About</Link></li>
           </ul>
         </div>
       </nav>
       <Routes>
-        <Route path="#/signin" element={<SignIn />} />
-        <Route path="#/questions" element={<Questions />} />
-        <Route path="#/" element={<Home />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/questions" element={<Questions />} />
+        <Route path="/" element={<Home />} />
         <Route path="/sportquestions" element={<SportQuestions />} />
-        <Route path="#/movies" element={<Movies />} />
-        <Route path="#/cor" element={<COR />} />
-        <Route path="#/food" element={<Food />} />
-        <Route path="#/about" element={<About />} />
-        <Route path="#/animals" element={<Animals />} />
-        <Route path="#/amHistory" element={<History />} />
-        <Route path="#/geography" element={<Geography />} />
-        <Route path="#/whosaidthat" element={<Whosaidthat />} />
-        <Route path="#/music" element={<Music />} />
-        <Route path="#/spongebob" element={<Spongebob />} />
-        <Route path="#/general" element={<General />} />
+        <Route path="/movies" element={<Movies />} />
+        <Route path="/cor" element={<COR />} />
+        <Route path="/food" element={<Food />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/animals" element={<Animals />} />
+        <Route path="/amHistory" element={<History />} />
+        <Route path="/geography" element={<Geography />} />
+        <Route path="/whosaidthat" element={<Whosaidthat />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/spongebob" element={<Spongebob />} />
+        <Route path="/general" element={<General />} />
       </Routes>
     </Router>
   );
