@@ -38,21 +38,21 @@ export default function App() {
         </div>
       </nav>
       <Routes>
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/questions" element={<Questions />} />
-        <Route path="/" element={<Home />} />
+        <Route path="#/signin" element={<SignIn />} />
+        <Route path="#/questions" element={<Questions />} />
+        <Route path="#/" element={<Home />} />
         <Route path="/sportquestions" element={<SportQuestions />} />
-        <Route path="/movies" element={<Movies />} />
-        <Route path="/cor" element={<COR />} />
-        <Route path="/food" element={<Food />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/animals" element={<Animals />} />
-        <Route path="/amHistory" element={<History />} />
-        <Route path="/geography" element={<Geography />} />
-        <Route path="/whosaidthat" element={<Whosaidthat />} />
-        <Route path="/music" element={<Music />} />
-        <Route path="/spongebob" element={<Spongebob />} />
-        <Route path="/general" element={<General />} />
+        <Route path="#/movies" element={<Movies />} />
+        <Route path="#/cor" element={<COR />} />
+        <Route path="#/food" element={<Food />} />
+        <Route path="#/about" element={<About />} />
+        <Route path="#/animals" element={<Animals />} />
+        <Route path="#/amHistory" element={<History />} />
+        <Route path="#/geography" element={<Geography />} />
+        <Route path="#/whosaidthat" element={<Whosaidthat />} />
+        <Route path="#/music" element={<Music />} />
+        <Route path="#/spongebob" element={<Spongebob />} />
+        <Route path="#/general" element={<General />} />
       </Routes>
     </Router>
   );
