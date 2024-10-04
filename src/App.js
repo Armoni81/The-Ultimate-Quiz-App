@@ -4,36 +4,23 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import SignIn from './Components/SignIn';
-import Questions from "./Components/Questions";
-import Home from "./Components/Home";
-import Movies from "./Components/Movies";
-import SportQuestions from "./Components/SportQuestions";
-import About from "./Components/about";
-import COR from "./Components/COR";
-import Food from "./Components/food";
-import Animals from "./Components/animals";
-import History from "./Components/Amhistory";
-import Geography from "./Components/geography";
-import "./App.css";
-import Whosaidthat from "./Components/whosaidthat";
-import Music from "./Components/music";
-import Spongebob from "./Components/spongebob";
-import General from "./Components/general";
+// Your imports...
 
 export default function App() {
   return (
     <Router>
       <nav>
-  <div className="navbar">
-    <p id="quiz-name">Ultimate-Quiz</p>
-    <ul className="navbar-list">
-      <li><Link to="/" id="navhover">Home</Link></li>
-      <li><Link to="/signin" id="navhover">Sign-In</Link></li>
-      <li><Link to="/about" id="navhover">About</Link></li>
-    </ul>
-  </div>
-</nav>
+        <div className="navbar">
+          <p id="quiz-name">Ultimate-Quiz</p>
+          <ul className="navbar-list">
+            <li><Link to="#/">Home</Link></li>
+            <li><Link to="#/signin">Sign-In</Link></li>
+            <li><Link to="#/about">About</Link></li>
+            <li><Link to="#/sportquestions">Sport Questions</Link></li>
+            {/* Add more links as needed */}
+          </ul>
+        </div>
+      </nav>
       <Routes>
         <Route path="/signin" element={<SignIn />} />
         <Route path="/questions" element={<Questions />} />
