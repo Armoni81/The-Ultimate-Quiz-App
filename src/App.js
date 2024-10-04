@@ -1,5 +1,4 @@
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   Link,
@@ -23,18 +22,17 @@ import General from "./Components/general";
 
 export default function App() {
   return (
-    <Router>
-      <nav>
-        <div className="navbar">
-          <p id="quiz-name">Ultimate-Quiz</p>
-          <ul className="navbar-list">
-            <li><Link to="/" id="navhover">Home</Link></li>
-            <li><Link to="/signin" id="navhover">Sign-In</Link></li>
-            <li><Link to="/about" id="navhover">About</Link></li>
-          </ul>
-        </div>
-      </nav>
-      <Routes>
+
+      <><nav>
+      <div className="navbar">
+        <p id="quiz-name">Ultimate-Quiz</p>
+        <ul className="navbar-list">
+          <li><Link to="/" id="navhover">Home</Link></li>
+          <li><Link to="/signin" id="navhover">Sign-In</Link></li>
+          <li><Link to="/about" id="navhover">About</Link></li>
+        </ul>
+      </div>
+    </nav><Routes>
         <Route path="/signin" element={<SignIn />} />
         <Route path="/questions" element={<Questions />} />
         <Route path="/" element={<Home />} />
@@ -50,7 +48,6 @@ export default function App() {
         <Route path="/music" element={<Music />} />
         <Route path="/spongebob" element={<Spongebob />} />
         <Route path="/general" element={<General />} />
-      </Routes>
-    </Router>
+      </Routes></>
   );
 }
