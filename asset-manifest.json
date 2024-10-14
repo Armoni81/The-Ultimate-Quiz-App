@@ -1,12 +1,10 @@
 {
   "files": {
-    "main.css": "/The-Ultimate-Quiz-App/static/css/main.732101f1.css",
-    "main.js": "/The-Ultimate-Quiz-App/static/js/main.deb43ac9.js",
+    "main.css": "/The-Ultimate-Quiz-App/static/css/main.3aae9db4.css",
+    "main.js": "/The-Ultimate-Quiz-App/static/js/main.c1f4ab3f.js",
     "static/js/453.feb06ac9.chunk.js": "/The-Ultimate-Quiz-App/static/js/453.feb06ac9.chunk.js",
-    "static/media/IMG_8820.jpg": "/The-Ultimate-Quiz-App/static/media/IMG_8820.2f673c76f29ff36b70d7.jpg",
     "static/media/TrainOne-Regular.ttf": "/The-Ultimate-Quiz-App/static/media/TrainOne-Regular.b3ade60d348fbc8e53e0.ttf",
     "static/media/DotGothic16-Regular.ttf": "/The-Ultimate-Quiz-App/static/media/DotGothic16-Regular.ccf9bcc3359f46a06dab.ttf",
-    "static/media/brains-home-page.png": "/The-Ultimate-Quiz-App/static/media/brains-home-page.f60ceed729941b84b339.png",
     "static/media/food-quizapp.jpeg": "/The-Ultimate-Quiz-App/static/media/food-quizapp.c59bb5fb58eeec4dbd20.jpeg",
     "static/media/Screen Shot 2021-12-02 at 11.11.30 PM.jpg": "/The-Ultimate-Quiz-App/static/media/Screen Shot 2021-12-02 at 11.11.30 PM.401a7aad0bff296bfcf7.jpg",
     "static/media/owl-g0ac25efce_640.jpg": "/The-Ultimate-Quiz-App/static/media/owl-g0ac25efce_640.35aa8951557fd5943327.jpg",
@@ -21,12 +19,12 @@
     "static/media/spongebob.jpeg": "/The-Ultimate-Quiz-App/static/media/spongebob.46ee0c143b1429fcc5cf.jpeg",
     "static/media/How-music-and-sound-can-help-alleviate-career-anxiety_940x485.jpeg": "/The-Ultimate-Quiz-App/static/media/How-music-and-sound-can-help-alleviate-career-anxiety_940x485.4079776677c29f6907a1.jpeg",
     "index.html": "/The-Ultimate-Quiz-App/index.html",
-    "main.732101f1.css.map": "/The-Ultimate-Quiz-App/static/css/main.732101f1.css.map",
-    "main.deb43ac9.js.map": "/The-Ultimate-Quiz-App/static/js/main.deb43ac9.js.map",
+    "main.3aae9db4.css.map": "/The-Ultimate-Quiz-App/static/css/main.3aae9db4.css.map",
+    "main.c1f4ab3f.js.map": "/The-Ultimate-Quiz-App/static/js/main.c1f4ab3f.js.map",
     "453.feb06ac9.chunk.js.map": "/The-Ultimate-Quiz-App/static/js/453.feb06ac9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.732101f1.css",
-    "static/js/main.deb43ac9.js"
+    "static/css/main.3aae9db4.css",
+    "static/js/main.c1f4ab3f.js"
   ]
 }
