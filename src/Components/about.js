@@ -1,5 +1,4 @@
 import React from "react"
-import itsME from "../images/IMG_8820.jpg"
 import "../CSS/about.css"
 export default function About(){
     
@@ -7,10 +6,8 @@ export default function About(){
         <div className = "background">
             <p>About</p>
             <div id = "header1">
-                <img src = {itsME} id = "armoni"></img>
                 <p id = "aboutme">Creator: Armoni Tigner</p>
-                <p id = "aboutme">Built with React JSX CSS JavaScript </p>
-                <p id = "aboutme">The Ultimate Quiz App was initially built to study basic software development topics, but later turned into hosting a plethora of catergories such as sports, movies, food and history. I did'nt want to limit myself. Please enjoy this app as it was built 100% from scratch. Please leave any reviews or messages in my contact form below.</p>
+                <p id = "aboutme">Built with React CSS JavaScript Google Firebase </p>
             </div>
             <div>
                 <p id = "contact">Contact Me</p>
@@ -21,7 +18,7 @@ export default function About(){
                     <input type="text" id= "name" name="name" placeholder=" Input Name" required="" />
                     <label for="email">Email</label>
                     <input type="email" id= "name" name="email" placeholder=" Input Email" required=""/>
-                    <label for="message" >Message</label>
+                    <label for="message" style={{width: '100%'}}>Message</label>
                 <textarea
                 id="message"
                 name="message"

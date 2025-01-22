@@ -1,72 +1,132 @@
+/* General body and root settings */
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  box-sizing: border-box;
+}
 
-.navbar-list{
+.disabled {
+  pointer-events:none;
+  opacity:0.6;   
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Separate brand and nav items */
+  align-items: center;
+  background-color: rgb(132, 223, 214); /* Background color */
+  width: 100%;            /* Full width of the viewport */
+  padding: 10px 20px;     /* Padding around the navbar */
+  box-sizing: border-box;  /* Include padding in width */
+  position: relative;      /* Ensure it's relative for positioning */
+}
+
+/* Navbar List */
+.navbar-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: end;
+  gap: 20px;              /* Space between nav items */
+  justify-content: flex-end; /* Align items to the right */
   color: white;
   font-family: "DotGothic16";
   font-size: 15pt;
   font-weight: 900;
-  background-color: rgb(132, 223, 214)
-  
+  flex-wrap: nowrap;       /* Prevent wrapping */
 }
-li:hover{
-  background-color: rgb(9, 24, 24);
-}
-#quiz-name{
-  position: relative;
-  top:10px;
-  
-  font-family: "Libre Barcode 39 Text";
 
+/* Nav list items */
+.navbar-list li {
+  margin: 0;
+}
+
+/* Quiz name */
+#quiz-name {
+  font-family: "Libre Barcode 39 Text";
   font-size: 38pt;
   color: aquamarine;
+  position: relative;
 }
 
-.navbar{
-  background-color: black;
-  padding-top: 0px;
-  padding-bottom: 0px;
+/* Responsive adjustments for smaller screens */
+@media (max-width: 978px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center the content */
+  }
+
+  .navbar-list {
+    justify-content: center; /* Center nav items */
+    width: 100%;             /* Full width */
+    flex-wrap: wrap;          /* Allow wrapping */
+  }
+
+  .navbar-list li {
+    font-size: 12pt;         /* Adjust font size */
+  }
+
+  #quiz-name {
+    font-size: 30pt;         /* Adjust brand name font size */
+  }
 }
 
-ul {
-  list-style-type: none;
-  margin: 10;
-  padding: 10;
-  overflow: hidden;
-  background-color: #333;
+/* Center navbar items on smaller screens */
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: center;  /* Center navbar content */
+    padding: 10px;            /* Adjust padding */
+  }
+
+  .navbar-list {
+    justify-content: center;  /* Center nav items */
+    width: 100%;              /* Ensure the list takes full width */
+    flex-wrap: wrap;          /* Allow wrapping */
+  }
+
+  .navbar-list li {
+    font-size: 10pt;          /* Further reduce font size */
+  }
+
+  #quiz-name {
+    font-size: 24pt;          /* Adjust brand name font size */
+  }
 }
 
-li {
-  float: left;
-}
-
+/* Styling for nav links */
 li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  -webkit-text-stroke:thin rgb(104, 104, 187);
+  -webkit-text-stroke: thin rgb(104, 104, 187);
   -webkit-text-fill-color: rgb(248, 241, 242);
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Hover effect for nav links */
 #navhover:hover {
   background-color: rgb(104, 104, 187);
-  color:rgb(20, 0, 36);
+  color: rgb(20, 0, 36);
   font-weight: 900;
-  border: .5px solid whitesmoke;
-  -webkit-text-stroke:0.1vh white;
+  border: 0.5px solid whitesmoke;
+  -webkit-text-stroke: 0.1vh white;
   -webkit-text-fill-color: blue;
   opacity: 80%;
 }
-#brainimgnav{
+
+/* Custom image styling */
+#brainimgnav {
   border-radius: 200px;
   height: 80px;
   position: relative;
-  right:500px;
-  opacity: ;
+  right: 0;
+  margin: 0 auto;
+  display: block;
 }

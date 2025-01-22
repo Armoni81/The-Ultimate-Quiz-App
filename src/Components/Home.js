@@ -15,7 +15,6 @@ export default function Home() {
                 <li id="quizbox4"><Link to="/cor" id="href2">Ultimate City of Refuge Quiz</Link></li>
                 <li id="quizbox5"><Link to="/food" id="href1">Ultimate Food Quiz</Link></li>
                 <li id="quizbox6"><Link to="/animals" id="href1">Ultimate Animals Quiz</Link></li>
-                <li id="quizbox7"><Link to="/amHistory" id="href3">Ultimate African-American History Quiz</Link></li>
                 <li id="quizbox8"><Link to="/geography" id="href1">Ultimate Geography Quiz</Link></li>
                 <li id="quizbox9"><Link to="/whosaidthat" id="href2">Ultimate Who said that Quiz</Link></li>
                 <li id="quizbox10"><Link to="/music" id="href1">Ultimate Music Quiz</Link></li>
