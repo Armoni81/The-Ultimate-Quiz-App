@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/The-Ultimate-Quiz-App/static/css/main.3aae9db4.css",
-    "main.js": "/The-Ultimate-Quiz-App/static/js/main.f0799fe6.js",
+    "main.js": "/The-Ultimate-Quiz-App/static/js/main.9277c496.js",
     "static/js/453.feb06ac9.chunk.js": "/The-Ultimate-Quiz-App/static/js/453.feb06ac9.chunk.js",
     "static/media/TrainOne-Regular.ttf": "/The-Ultimate-Quiz-App/static/media/TrainOne-Regular.b3ade60d348fbc8e53e0.ttf",
     "static/media/DotGothic16-Regular.ttf": "/The-Ultimate-Quiz-App/static/media/DotGothic16-Regular.ccf9bcc3359f46a06dab.ttf",
@@ -20,11 +20,11 @@
     "static/media/How-music-and-sound-can-help-alleviate-career-anxiety_940x485.jpeg": "/The-Ultimate-Quiz-App/static/media/How-music-and-sound-can-help-alleviate-career-anxiety_940x485.4079776677c29f6907a1.jpeg",
     "index.html": "/The-Ultimate-Quiz-App/index.html",
     "main.3aae9db4.css.map": "/The-Ultimate-Quiz-App/static/css/main.3aae9db4.css.map",
-    "main.f0799fe6.js.map": "/The-Ultimate-Quiz-App/static/js/main.f0799fe6.js.map",
+    "main.9277c496.js.map": "/The-Ultimate-Quiz-App/static/js/main.9277c496.js.map",
     "453.feb06ac9.chunk.js.map": "/The-Ultimate-Quiz-App/static/js/453.feb06ac9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3aae9db4.css",
-    "static/js/main.f0799fe6.js"
+    "static/js/main.9277c496.js"
   ]
 }
